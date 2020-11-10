@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: claimrepos
-        image: policycr.azurecr.io/claimrepos:latest
+        image: cmscr.azurecr.io/claimrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
